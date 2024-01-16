@@ -24,9 +24,20 @@ Primarly we focused on these features for feature selection:
 - Violence and fatalities​
 - Unemployment​
 
+Terminology:
+**IDPs** – Internally Displaced Person/People, contextually meaning anyone who has been forced to leave their home as a result to avoid armed conflict in this case but still reside within the Ukranian borders
+**Humanitarian Condition Level** - based on the European’s INFORM Severity index which determines a level 1-5, based on:
+- Impact of crisis
+- People in need
+- Condition of people
+**Access to humanitarian needs** - healthcare, shelter, food
+
 `# male population` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
 
 The `# registered IDPs` feature was used as a label for the supervised time series model.
+
+We chose this particular dataset because its dataset size was bigger than others that were provided through HDX, had features necessary for our approach, and was representative of all of the oblasts and their categorical features.
+
 
 #### *ACAPS MASTER DATASET* PREPROCESSING
 
@@ -55,7 +66,7 @@ Since there were many features that correlated to each geographical situation wi
 
 K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster.
 
-Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The optimal number was 4 different clusters.
+Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The elbow method finds where the rate of decrease sharply changes within the plotted cluster, minimizing the total variance within each cluster. The optimal number was 4 different clusters.
 
 <img width="568" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/11a1e7fd-1859-4717-ac43-fc0e0f85bf7e">
 
