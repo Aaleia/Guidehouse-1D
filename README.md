@@ -1,7 +1,7 @@
 # Predicting Ukraine's Emerging Humanitarian Needs, Guidehouse-1D
 ## Fall 2023, AI Studio Project Write-Up
 
-### Forecasting Ukraine displacement, utilizing K-Means Clustering and Seasonal ARIMAX :
+### Forecasting Ukraine displacement, utilizing K-Means Clustering and Seasonal ARIMAX Time Series :
 
 ### Business Focus 
 
@@ -107,6 +107,8 @@ Majority of unconfirmed and confirmed regions of Ukraine are correlated with reg
 People affected are highly correlated with registered IDPs, but less with impacted regions in Ukraine and Russia and the majority of the male and older female populations (Cluster 1 takes more in account for older populations, while Cluster 0 takes more in account of unconfirmed control of land)
 
 **Km^2 of Russian Forces consistently has lower correlations for IDPs.**
+
+#### Supervised Learning : Seasonal ARIMAX Time Series
 
 
 
