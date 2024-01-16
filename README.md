@@ -40,8 +40,8 @@ Before preprocessing we made the following adjustments :
 
 And we used the following methods : 
 
-**Time Scaling** ~
+**Time Scaling** >
 
-**Standardization** ~
+**Standardization** >
 
-**Dummy/Indicator Variables** ~
+**Dummy/Indicator Variables** >
