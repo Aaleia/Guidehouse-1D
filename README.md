@@ -10,7 +10,7 @@
 3. [Modelling](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#modelling)
 4. [Results](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#result--achieved-an-average-rmse-of004149-across-4-clusters-25-regions-implying-high-accuracy)
 5. [Evaluation & Looking Forward](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#evaluation--looking-forward)
-6. [Credits](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
+6. [Credits](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#credits)
 ### Business Focus 
 
 As a direct result of 2022 Russia's invasion in Ukraine, the rate of displacement has been at of an all time high, especially in vulnerable oblasts within km^2 range of the border. This project focuses on the consulting firm *Guidehouse's* clientele request to implement forecasting machine learning models in order to predict present humantarian needs in Ukraine. The goal was to cluster patterns within the *ACAPS Master Dataset* within each oblast's internally displaced people and other features, and to then utilize time series for an estimated future displacement fixed number. Results are only attained to the geographical conditions located in the *ACAPS Master Dataset* and should only be used as a supplement tool for acclerated humantarian action. Predictions may be filtered due to external data factors outside of control.
