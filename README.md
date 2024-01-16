@@ -10,9 +10,6 @@ As a direct result of 2022 Russia's invasion in Ukraine, the rate of displacemen
 ### Data Preparation and Validation
 #### DATASET DESCRIPTION
 
-![image](https://github.com/Aaleia/Guidehouse-1D/assets/143746727/822b32fc-871d-4c94-b429-5b436f9e0f9e)
-
-
 We explored HDX and used the *ACAPS Master Dataset*, which spans monthly from **Jan 2022 - Sep 2023**. We explored HDX and used the ACAPS Master Dataset, which spans monthly from **Jan 2022 - Sep 2023**. The dataset focuses on Ukranian civilians from 24 different Oblasts + Kyiv (special administrative status), that correlated to each categorical citizen and geographical related features, such as `# km^2 controlled by Russian forces`, `# civilian fatalities`, etc. 
 
 Primarly we focused on these features :
