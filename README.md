@@ -49,3 +49,6 @@ Standard scaler: mean value 0 and standard deviation 1 (removing the mean and an
 
 ### Choosing the Model
 
+Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe patterns within our dataset through clustering, and then further used them for a fixed supervised learning numerical prediction for IDPs. 
+
+##### K-Means Clustering - 
