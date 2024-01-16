@@ -49,6 +49,15 @@ Standard scaler: mean value 0 and standard deviation 1 (removing the mean and an
 
 ### Choosing the Model
 
-Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe patterns within our dataset through clustering, and then further used them for a fixed supervised learning numerical prediction for IDPs. 
+Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe broader patterns within our dataset through clustering, and then further used them for a fixed supervised learning numerical prediction for IDPs. 
 
 #### Unsupervised Learning : K-Means Clustering 
+
+K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster.
+
+Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The optimal number was 4 different clusters.
+
+<img width="403" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/cc9a7801-cc80-4b38-80e4-4fa4171eed5a">
+
+<img width="568" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/11a1e7fd-1859-4717-ac43-fc0e0f85bf7e">
+
