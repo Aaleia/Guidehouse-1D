@@ -93,5 +93,22 @@ Each cluster and the data points within them was expressed through the individua
 
 We utilized a heatmap correlation matrix for each cluster, in order to find a broader pattern between IDPs and the categorical features it related to. **Red** represents a very strong correlation, **Gray** is neutral, and **Blue** represents a very weak correlation. `# female older population (60 years and up)`, `# people affected`, `# km^2 unconfirmed control`, `# km^2 controlled by Ukrainian authorities/forces`, `# male population`, and `# total older population (60 years and up)` had the most correlation to `# registered IDPs`overall. `# km^2 controlled by Russian forces` was used as a control variable in order to compared the two controlled regions against each other when it came to displacement.
 
-<img width="649" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/a7bd3407-3ee3-412d-b06c-dd5c0697f013">
+<img width="649" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/a7bd3407-3ee3-412d-b06c-dd5c0697f013">  
+
+Majority of the male and older female populations are correlated highly with registered IDPs, but less with impacted regions in Ukraine and Russia (Russia is somewhat correlated to IDPs compared to Ukraine)
+
+<img width="591" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/1e2674dd-58aa-4049-95f3-aeba223431f6">
+
+Majority of unconfirmed and confirmed regions of Ukraine are correlated with registered IDPs, but less or none with the majority of the male and older female populations. (Russia does not correlate with IDPs at all)
+
+<img width="626" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/e640b6f2-cd71-4428-8205-4d9aed5b9354">
+<img width="619" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/694aaecc-7186-44ee-8d1f-c4a2760aeb64">
+
+People affected are highly correlated with registered IDPs, but less with impacted regions in Ukraine and Russia and the majority of the male and older female populations (Cluster 1 takes more in account for older populations, while Cluster 0 takes more in account of unconfirmed control of land)
+
+**Km^2 of Russian Forces consistently has lower correlations for IDPs.**
+
+
+
+
 
