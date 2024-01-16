@@ -117,7 +117,7 @@ People affected are highly correlated with registered IDPs, but less with impact
 
 #### Supervised Learning : Seasonal ARIMAX Time Series
 
-Seasonality is defined within our dataset as external circumstances that changes the time series data in a certain shape or form, during certain time intervals.
+Seasonality is defined within our dataset as external circumstances that changes the time series data in a certain shape or form, during different monthly time intervals.
 
 Seasonal ARIMAX (Autoregressive Integrated Moving Average with eXogenous variables) is a historically fit time series data model based on ARIMA, with the use of seasonal patterns in order to forecast trends within phases of time. The autoregressive aspects implements the relationship between a current observation and a specified number of lagged observations, making the time series data itself stationary for differencing, models the relationship between an observation and a residual error from a moving average model, and accounts for eXogenous variables that not included specifcially in the time series data, but may alter the results. 
 
