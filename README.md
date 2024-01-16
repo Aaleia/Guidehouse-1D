@@ -10,7 +10,7 @@ As a direct result of 2022 Russia's invasion in Ukraine, the rate of displacemen
 **Keep in mind that through this project we primarly wanted to:**
 
 - Utilize data analysis and forecasting techniques, by using AI/ML principles, to draw predictions towards future humanitarian efforts required
-- Acknowledgethe sensitivity of the humanitarian crisis in Ukraine within our data manipulation process.
+- Acknowledge the sensitivity of the humanitarian crisis in Ukraine within our data manipulation process.
 - Solutions from our ML model(s) to be adequate to Guidehouse Advanced Analytics & Intelligent Automation (AAIA) team’s future clientele.
 
 
