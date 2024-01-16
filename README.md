@@ -133,7 +133,7 @@ Training data was used to predict IDPs in each oblast. The hyperparameter `M` ha
 
 <img width="999" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/727faf7a-bbaf-4f71-b1d3-dd1e5b099094">
 
-
+#### Note : The time scale listed on the x-axis is the default set year value from the 1970s and is representative of the range of 2022-2023.
 
 
 
