@@ -40,10 +40,10 @@ Before preprocessing we made the following adjustments :
 
 And we used the following methods : 
 
-**Time Scaling** - Implemented a Time column, based on days since Jan 2022 using the monthly data, in preperation for the time series model.
+**Time Scaling** - Implemented a Time column, based on days since Jan 2022 using the monthly data, in preparation for the time series model.
 
 **Standardization** - Standard Scaler for all numerical features through Z-score normalization (all eligible columns except Oblast)
-Standard scaler: mean value 0 and standard deviation 1 (removing the mean and and scaling to unit variance)
+Standard scaler: mean value 0 and standard deviation 1 (removing the mean and and scaling to unit variance) for better PCA centroid performance to handle variance within the same scale.
 
 **Dummy/Indicator Variables** - Converting each Oblast column to numerical by giving each oblast a number for time series.
 
