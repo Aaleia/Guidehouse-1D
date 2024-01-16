@@ -40,8 +40,11 @@ Before preprocessing we made the following adjustments :
 
 And we used the following methods : 
 
-**Time Scaling** -
+**Time Scaling** - Implemented a Time column, based on days since Jan 2022 using the monthly data, in preperation for the time series model.
 
-**Standardization** -
+**Standardization** - Standard Scaler for all numerical features through Z-score normalization (all eligible columns except Oblast)
+Standard scaler: mean value 0 and standard deviation 1 (removing the mean and and scaling to unit variance)
 
-**Dummy/Indicator Variables** -
+**Dummy/Indicator Variables** - Converting each Oblast column to numerical by giving each oblast a number for time series.
+
+
