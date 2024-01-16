@@ -36,6 +36,6 @@ Before preprocessing we made the following adjustments :
 - Removed data on wages, income, pension, and inflation​ since it was not relevant
 - Did not use food/fuel cost data, as it was too likely to be affected by other factors​
 - Removed data not available for every Oblast​
-- Removed data from Crimea and Ukraine overall​
+- Removed data from totality countries features (Crimea and Ukraine)​
 
 And we used the following methods : 
