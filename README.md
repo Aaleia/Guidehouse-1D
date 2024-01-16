@@ -7,7 +7,7 @@
 
 1. [Business Focus](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
 2. [Data Preparation and Validation](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#data-preparation-and-validation)
-3. [Modelling](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
+3. [Modelling](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#modelling)
 4. [Results](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
 5. [Evaluation & Looking Forward](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
 6. [Credits](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
