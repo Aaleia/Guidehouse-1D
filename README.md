@@ -93,4 +93,5 @@ Each cluster and the data points within them was expressed through the individua
 
 We utilized a heatmap correlation matrix for each cluster, in order to find a broader pattern between IDPs and the categorical features it related to. **Red** represents a very strong correlation, **Gray** is neutral, and **Blue** represents a very weak correlation. `# female older population (60 years and up)`, `# people affected`, `# km^2 unconfirmed control`, `# km^2 controlled by Ukrainian authorities/forces`, `# male population`, and `# total older population (60 years and up)` had the most correlation to `# registered IDPs`overall. `# km^2 controlled by Russian forces` was used as a control variable in order to compared the two controlled regions against each other when it came to displacement.
 
+<img width="649" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/a7bd3407-3ee3-412d-b06c-dd5c0697f013">
 
