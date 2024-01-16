@@ -145,5 +145,14 @@ Humanitarian needs is tricky to predict in a militarized/politicized conflict.
 
 With the geopoltical landscape changing rapidly for a variety of different reasons, it would not be viable or ethical to proclaim these findings to a government official for a complete use case, as we are quite limited in scope as to what we can throughly predict, given our reduced computational resources and external measures not recorded or altered in our dataset. However, within what we were able to accomplish with our smaller machine learning models, if you have a fine tuned datset with broader patterns to each categorical feature, then predicting displacement is possible., and thus enhance aid distribution planning, reducing the crisis's human impact.
  
-For future research, we would need to incorporate more real time data, as well as responsibly increasing our computational resources needed for wider scale models. 
+As for ethical concerns, we thought that having a fixed prediction number alone was not sufficient for this problem, so we opted towards clustering in order to get a better hold of the relationships between IDPs and their categoricla features. For future research, we would need to incorporate more real time data, as well as responsibly increasing our computational resources needed for wider scale models. 
 
+### Credits
+
+Aaleia - Completed the SARIMAX time series model and the K-Means Clustering model.
+Sherin - Completed cluster analysis and business understanding of the problem.
+Cindy - Choosing between supervised and unsupervised learning.
+Arielle - Chose dataset and preprocessed the data.
+Iman - Researched ethics, ML papers, and evaluated our problem for future use cases.
+
+Thank you to Break Through Tech, the Cornell Tech AI Program team, and Guidehouse for granting me this learning opportunity that I will never forget! To my Challenge Advisor, Karen, and teammates, thank you for all of your support and contributions.
