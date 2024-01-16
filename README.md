@@ -10,7 +10,21 @@ As a direct result of 2022 Russia's invasion in Ukraine, the rate of displacemen
 ### Data Preparation and Validation
 #### DATASET DESCRIPTION
 
-We explored HDX and used the *ACAPS Master Dataset*, which spans monthly from **Jan 2022 - Sep 2023**. We explored HDX and used the ACAPS Master Dataset, which spans monthly from **Jan 2022 - Sep 2023**. The dataset focuses on Ukranian civilians from 24 different Oblasts + Kyiv (special administrative status), that correlated to each categorical citizen and geographical related features, such as `# km^2 controlled by Russian forces`, `# civilian fatalities`, etc. `# male younger population (0 - 14 years)` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
+We explored HDX and used the *ACAPS Master Dataset*, which spans monthly from **Jan 2022 - Sep 2023**. We explored HDX and used the ACAPS Master Dataset, which spans monthly from **Jan 2022 - Sep 2023**. The dataset focuses on Ukranian civilians from 24 different Oblasts + Kyiv (special administrative status), that correlated to each categorical citizen and geographical related features, such as `# km^2 controlled by Russian forces`, `# civilian fatalities`, etc. 
+
+Primarly we focused on these features :
+
+- Area controlled by Ukraine and Russia​
+- Population & people exposed​
+- People affected​
+- Demographics​
+- Internally Displaced People (IDPs)​
+- Levels of severity (1-5)​
+- Minimal, stressed, moderate, severe, extreme
+- Violence and fatalities​
+- Unemployment​
+
+`# male younger population (0 - 14 years)` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
 
 The `# registered IDPs` feature was used as a label for the supervised time series model.
 
