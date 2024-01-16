@@ -57,7 +57,6 @@ K-Means Clustering gathers data points that are similar to each other in some sh
 
 Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The optimal number was 4 different clusters.
 
-<img width="403" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/cc9a7801-cc80-4b38-80e4-4fa4171eed5a">
-
 <img width="568" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/11a1e7fd-1859-4717-ac43-fc0e0f85bf7e">
 
+<img width="403" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/cc9a7801-cc80-4b38-80e4-4fa4171eed5a">
