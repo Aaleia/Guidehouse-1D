@@ -76,6 +76,9 @@ Standard scaler: mean value 0 and standard deviation 1 (removing the mean and an
 
 **Dummy/Indicator Variables** - Converting each Oblast column to numerical by giving each oblast a number for time series.
 
+![image](https://github.com/Aaleia/Guidehouse-1D/assets/143746727/275e7177-0156-4dde-8101-332f9c7a623a)
+
+
 ### Modelling
 
 Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe broader patterns within our dataset through clustering, and then further use them for a fixed supervised learning numerical prediction for IDPs. 
