@@ -1,7 +1,7 @@
 # Predicting Ukraine's Emerging Humanitarian Needs, Guidehouse-1D
 ## Fall 2023, AI Studio Project Write-Up
 
-### Forecasting Ukraine displacement, utilizing K-Means Clustering and Seasonal ARIMAX Time Series :
+### Forecasting Ukraine displacement, utilizing K-Means Clustering and SARIMAX Time Series :
 
 ### Business Focus 
 
@@ -54,7 +54,7 @@ Before preprocessing we made the following adjustments :
 
 And we used the following methods : 
 
-**Time Scaling** - Implemented a Time column, based on days since Jan 2022 using the monthly data, in preparation for the time series model.
+**Time Scaling** - Implemented a Time column, based on days since Jan 2022 using the monthly data, in preparation for the time series model where we forecast future IDPs.
 
 **Standardization** - Standard Scaler for all numerical features through Z-score normalization (all eligible columns except Oblast)
 Standard scaler: mean value 0 and standard deviation 1 (removing the mean and and scaling to unit variance) for better PCA centroid performance to handle variance within the same scale.
@@ -63,7 +63,7 @@ Standard scaler: mean value 0 and standard deviation 1 (removing the mean and an
 
 ### Modelling
 
-Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe broader patterns within our dataset through clustering, and then further used them for a fixed supervised learning numerical prediction for IDPs. 
+Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe broader patterns within our dataset through clustering, and then further use them for a fixed supervised learning numerical prediction for IDPs. 
 
 #### Unsupervised Learning : K-Means Clustering 
 
@@ -116,5 +116,10 @@ In our case, our supervised model finds trends or systemic patterns over the per
 
 **TRAINING + TESTING :** 
 
+Training data was used to predict IDPs in each oblast. The hyperparameter `M` had a value of `12`, as `M = yearly seasonality` from our monthly data. In order to split our training and testing data accordingly, we used an 85-15 split to include certain spikes in IDP data (also performs well with an 80-20 split). We also applied Grid Search to find optimal order and seasonal order for each oblast.
+ 
+  -> Was optimized by using K-Means clusters that grouped the oblasts together, so we only ran grid search 4 times instead of 25 times, while utilizing our broader patterns that we observed for consistentcy during the evaulation of the SARIMAX model.
+
+<img width="1181" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/eb61b6cc-e94f-4de8-8d9a-3f71ade04d9a">
 
 
