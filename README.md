@@ -14,7 +14,9 @@ We explored HDX and used the *ACAPS Master Dataset*, which spans monthly from **
 
 The `# registered IDPs` feature was used as a label for the supervised time series model.
 
-#### *ACAPS MASTER DATASET* PREPROCESSING :
+#### *ACAPS MASTER DATASET* PREPROCESSING
+
+Before Preprocessing we made the following adjustments :
 
 - Removed all non-numerical values (e.g. postal code), except for Oblast (region)​
 - Removed data on wages, income, pension, and inflation​ since it was not relevant
