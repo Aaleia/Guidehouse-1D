@@ -14,3 +14,10 @@ We explored HDX and used the ACAPS Master Dataset, which spans monthly from **Ja
 
 The `# registered IDPs` feature was used as a label for the supervised time series model.
 
+#### ACAPS MASTER DATASET PREPROCESSING :
+
+- Removed all non-numerical values (e.g. postal code), except for Oblast (region)​
+- Removed data on wages, income, pension, and inflation​ since it was not relevant
+- Did not use food/fuel cost data, as it was too likely to be affected by other factors​
+- Removed data not available for every Oblast​
+- Removed data from Crimea and Ukraine overall​
