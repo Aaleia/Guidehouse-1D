@@ -16,10 +16,12 @@ The `# registered IDPs` feature was used as a label for the supervised time seri
 
 #### *ACAPS MASTER DATASET* PREPROCESSING
 
-Before Preprocessing we made the following adjustments :
+Before preprocessing we made the following adjustments :
 
 - Removed all non-numerical values (e.g. postal code), except for Oblast (region)​
 - Removed data on wages, income, pension, and inflation​ since it was not relevant
 - Did not use food/fuel cost data, as it was too likely to be affected by other factors​
 - Removed data not available for every Oblast​
 - Removed data from Crimea and Ukraine overall​
+
+And we used the following methods : 
