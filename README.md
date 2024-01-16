@@ -3,7 +3,7 @@
 
 ### Forecasting Ukraine displacement, utilizing K-Means Clustering and SARIMAX Time Series :
 
-[Business Focus](https://github.com/hillaryfraley/jobbriefings#purpose)
+[Business Focus](https://github.com/Aaleia/Guidehouse-1D/blob/main/README.md#business-focus)
 
 ### Business Focus 
 
