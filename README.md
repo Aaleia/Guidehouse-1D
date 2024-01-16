@@ -39,3 +39,9 @@ Before preprocessing we made the following adjustments :
 - Removed data from totality countries features (Crimea and Ukraine)​
 
 And we used the following methods : 
+
+**Time Scaling** ~
+
+**Standardization** ~
+
+**Dummy/Indicator Variables** ~
