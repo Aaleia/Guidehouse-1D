@@ -75,4 +75,6 @@ Each cluster and the data points within them was expressed through the individua
 
 **Cluster 3:** Donetska
 
+**Donetska has its own cluster reserved for itself, because while cluster 2 contains Kyiv, the captial of Ukraine, Donetska holds the largest population with the steepest decrease in IDPs. According to geographical data driven from the dataset, Russia has focused most of its efforts within this region, due to its proximity to the border.** 
+
 
