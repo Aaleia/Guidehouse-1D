@@ -106,7 +106,7 @@ Majority of unconfirmed and confirmed regions of Ukraine are correlated with reg
 
 People affected are highly correlated with registered IDPs, but less with impacted regions in Ukraine and Russia and the majority of the male and older female populations (Cluster 1 takes more in account for older populations, while Cluster 0 takes more in account of unconfirmed control of land)
 
-**Km^2 of Russian Forces consistently has lower correlations for IDPs.**
+#### **Km^2 of Russian Forces consistently has lower correlations for IDPs.**
 
 #### Supervised Learning : Seasonal ARIMAX Time Series
 
