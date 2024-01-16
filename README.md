@@ -62,6 +62,7 @@ Visualized through PCA (Principal Component Analysis), we used the elbow method 
 <img width="403" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/cc9a7801-cc80-4b38-80e4-4fa4171eed5a">
 
 #### Individual Cluster Analysis
+Each cluster and the data points within them was expressed through the individual oblasts it was tied to.
 
 <img width="913" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/57690e64-5baa-450c-a01a-fae007f94745">
 
