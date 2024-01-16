@@ -74,9 +74,9 @@ Since there were many features that correlated to each geographical situation wi
 
 #### Unsupervised Learning : K-Means Clustering 
 
-K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster. The way that unsupervised learning works is that the model is supposed to derive the clusters based on patterns it observes in the data, without being explicitly told of prior expected labels for each predictive pattern observation.
+K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster. The way that unsupervised learning works is that the model is supposed to derive the clusters based on patterns it observes in the data, without being explicitly told of prior expected labels for each predictive pattern observation segmenting regions for targeted aid towards the features that will end up within their own cluster.
 
-Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The elbow method finds where the rate of decrease sharply changes within the plotted cluster, minimizing the total variance within each cluster. The optimal number was 4 different clusters.
+Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The elbow method finds where the rate of decrease sharply changes within the plotted cluster, minimizing the total variance within each cluster. The optimal number was 4 different clusters, .
 
 <img width="568" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/11a1e7fd-1859-4717-ac43-fc0e0f85bf7e">
 
@@ -141,4 +141,9 @@ RMSE (Root Mean Squared Error) is calculated as the square root of the average o
 
 ### Evaluation & Looking Forward
 
+Humanitarian needs is tricky to predict in a militarized/politicized conflict.
+
+With the geopoltical landscape changing rapidly for a variety of different reasons, it would not be viable or ethical to proclaim these findings to a government official for a complete use case, as we are quite limited in scope as to what we can throughly predict, given our reduced computational resources and external measures not recorded or altered in our dataset. However, within what we were able to accomplish with our smaller machine learning models, if you have a fine tuned datset with broader patterns to each categorical feature, then predicting displacement is possible., and thus enhance aid distribution planning, reducing the crisis's human impact.
+ 
+For future research, we would need to incorporate more real time data, as well as responsibly increasing our computational resources needed for wider scale models. 
 
