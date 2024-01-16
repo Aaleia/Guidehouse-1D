@@ -91,4 +91,6 @@ Each cluster and the data points within them was expressed through the individua
 
 **Donetska has its own cluster reserved for itself, because while cluster 2 contains Kyiv, the captial of Ukraine, Donetska holds the largest population with the steepest decrease in IDPs. According to geographical data driven from the dataset, Russia has focused most of its efforts within this region, due to its proximity to the border.** 
 
+We utilized a heatmap correlation matrix for each cluster, in order to find a broader pattern between IDPs and the categorical features it related to. **Red** represents a very strong correlation, **Gray** is neutral, and **Blue** represents a very weak correlation. `# female older population (60 years and up)`, `# people affected`, `# km^2 unconfirmed control`, `# km^2 controlled by Ukrainian authorities/forces`, `# male population`, and `# total older population (60 years and up)` had the most correlation to `# registered IDPs`overall. `# km^2 controlled by Russian forces` was used as a control variable in order to compared the two controlled regions against each other when it came to displacement.
+
 
