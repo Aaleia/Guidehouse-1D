@@ -129,4 +129,12 @@ Training data was used to predict IDPs in each oblast. The hyperparameter `M` ha
 
 <img width="1181" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/eb61b6cc-e94f-4de8-8d9a-3f71ade04d9a">
 
+## **Result : Achieved an average RMSE of 0.04149 across 4 clusters (25 regions), implying high accuracy**
+
+<img width="999" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/727faf7a-bbaf-4f71-b1d3-dd1e5b099094">
+
+
+
+
+
 
