@@ -125,7 +125,7 @@ In our case, our supervised model finds trends or systemic patterns over the per
 
 **TRAINING + TESTING :** 
 
-Training data was used to predict IDPs in each oblast. The hyperparameter `M` had a value of `12`, as `M = yearly seasonality` from our monthly data. In order to split our training and testing data accordingly, we used an 85-15 split to include certain spikes in IDP data (also performs well with an 80-20 split). We also applied Grid Search to find optimal order and seasonal order for each oblast.
+Training data was used to predict IDPs in each oblast. The hyperparameter `M` had a value of `12`, as `M = yearly seasonality` from our monthly data. In order to split our training and testing data accordingly, we used an 85-15 split to include certain spikes in IDP data (also performs well with an 80-20 split). We also applied Grid Search to find optimal order and seasonal order for each oblast, and to avoid overfitting.
  
   -> Was optimized by using K-Means clusters that grouped the oblasts together, so we only ran grid search 4 times instead of 25 times, while utilizing our broader patterns that we observed for consistentcy during the evaulation of the SARIMAX model.
 
