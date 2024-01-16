@@ -114,7 +114,7 @@ Seasonal ARIMAX (Autoregressive Integrated Moving Average with eXogenous variabl
 
 In our case, our supervised model finds trends or systemic patterns over the period of 2 years within our *ACAPS Master Dataset* assigned labels , which produces successive measurements over fixed time intervals, and aligns well with our monthly data. In fact, it performed better for certain oblasts than just ARIMAX, performed well even when seasonality wasn’t present, and was not likely to be affected by weather, more likely patterns such as June 2022 and June 2023 (buildup before Ukrainian counteroffensives).
 
-TRAINING + TESTING : 
+**TRAINING + TESTING :** 
 
 
 
