@@ -66,3 +66,9 @@ Each cluster and the data points within them was expressed through the individua
 
 <img width="913" alt="image" src="https://github.com/Aaleia/Guidehouse-1D/assets/143746727/57690e64-5baa-450c-a01a-fae007f94745">
 
+**Cluster 0:** Cherkaska, Chernihivska, Chernivetska, Ivano-Frankivska, Khmelnytska, Kirovohradska, Mykolaivska, Poltavska, Rivnenska, Sumska, Ternopilska, Vinnytska, Volynska, Zakarpatska, Zhytomyrska
+**Cluster 1:** Khersonska, Luhanska, Zaporizka
+**Cluster 2:** Dnipropetrovska, Kharkivska, Kyiv, Kyivska, Lvivska, Odeska
+**Cluster 3:** Donetska
+
+
