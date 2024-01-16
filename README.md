@@ -61,13 +61,13 @@ Standard scaler: mean value 0 and standard deviation 1 (removing the mean and an
 
 **Dummy/Indicator Variables** - Converting each Oblast column to numerical by giving each oblast a number for time series.
 
-### Choosing the Model
+### Modelling
 
 Since there were many features that correlated to each geographical situation within each oblast, we wanted to observe broader patterns within our dataset through clustering, and then further used them for a fixed supervised learning numerical prediction for IDPs. 
 
 #### Unsupervised Learning : K-Means Clustering 
 
-K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster.
+K-Means Clustering gathers data points that are similar to each other in some shape or form, and groups them into each clusters, and measures the data points based upon the sum of the squared distances between each point and the mean of its assigned cluster. The way that unsupervised learning works is that the model is supposed to derive the clusters based on patterns it observes in the data, without being explicitly told of prior expected labels for each predictive pattern observation.
 
 Visualized through PCA (Principal Component Analysis), we used the elbow method to find the optimal value of the hyperparameter `K`, as `K = numbers of clusters`. The elbow method finds where the rate of decrease sharply changes within the plotted cluster, minimizing the total variance within each cluster. The optimal number was 4 different clusters.
 
@@ -110,7 +110,11 @@ People affected are highly correlated with registered IDPs, but less with impact
 
 #### Supervised Learning : Seasonal ARIMAX Time Series
 
+Seasonal ARIMAX (Autoregressive Integrated Moving Average with eXogenous variables) is a historically fit time series data model based on ARIMA, with the use of seasonal patterns in order to forecast trends within phases of time. The autoregressive aspects implements the relationship between a current observation and a specified number of lagged observations, making the time series data itself stationary for differencing, models the relationship between an observation and a residual error from a moving average model, and accounts for eXogenous variables that not included specifcially in the time series data, but may alter the results. 
 
+In our case, it find trends or systemic patterns over the period of 2 years within our *ACAPS Master Dataset*, which produces successive measurements over fixed time intervals, and aligned well with our monthly data. In fact, it performed better for certain oblasts than just ARIMAX, performed well even when seasonality wasn’t present, and was not likely to be affected by weather, more likely patterns such as June 2022 and June 2023 (buildup before Ukrainian counteroffensives).
+
+ 
 
 
 
