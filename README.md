@@ -24,7 +24,7 @@ Primarly we focused on these features :
 - Violence and fatalities​
 - Unemployment​
 
-`# male younger population (0 - 14 years)` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
+`# male population` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
 
 The `# registered IDPs` feature was used as a label for the supervised time series model.
 
