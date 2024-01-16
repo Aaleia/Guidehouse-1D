@@ -137,6 +137,6 @@ Training data was used to predict IDPs in each oblast. The hyperparameter `M` ha
 
 RMSE (Root Mean Squared Error) is calculated as the square root of the average of the squared differences between the predicted and actual values. The regression predicion error of our model is significantly low, suggesting that the time series data is properly fit to the model, and that the model is able to forecast an approximate amount of IDPs per region, on unseen data. The graph is attained from Cluster one (Kyiv) which shows the test set and predictions linearly increase, which may be due to the test set's emphasis on `# people affected` and `# total older population (60 years and up)` feature for that cluster. 
 
-## Evaluation & Looking Forward
+### Evaluation & Looking Forward
 
 
