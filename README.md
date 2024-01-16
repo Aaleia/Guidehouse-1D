@@ -25,12 +25,15 @@ Primarly we focused on these features for feature selection:
 - Unemployment​
 
 Terminology:
-**IDPs** – Internally Displaced Person/People, contextually meaning anyone who has been forced to leave their home as a result to avoid armed conflict in this case but still reside within the Ukranian borders
+
+**IDPs** – Internally Displaced Person/People, contextually meaning anyone who has been forced to leave their home as a result to avoid armed conflict in this case but still reside within the Ukranian borders.
+
 **Humanitarian Condition Level** - based on the European’s INFORM Severity index which determines a level 1-5, based on:
 - Impact of crisis
 - People in need
 - Condition of people
-**Access to humanitarian needs** - healthcare, shelter, food
+  
+**Access to humanitarian needs** - Healthcare, shelter, food, etc.
 
 `# male population` and `# total older population (60 years and up)` provided a stark constrast in the data, since Ukraine restricted men from the ages 18-60 from leaving the borders in case of a need for fighters. 
 
