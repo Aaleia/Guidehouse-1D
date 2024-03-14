@@ -15,6 +15,8 @@
 
 As a direct result of 2022 Russia's invasion in Ukraine, the rate of displacement has been at of an all time high, especially in vulnerable oblasts within km^2 range of the border. This project focuses on the consulting firm *Guidehouse's* clientele request to implement forecasting machine learning models in order to predict present humantarian needs in Ukraine. The goal was to cluster patterns within the *ACAPS Master Dataset* within each oblast's internally displaced people and other features, and to then utilize time series for an estimated future displacement fixed number. Results are only attained to the geographical conditions located in the *ACAPS Master Dataset* and should only be used as a supplement tool for acclerated humantarian action. Predictions may be filtered due to external data factors outside of control.
 
+WARNING : FORECASTING MAY BE MANIPULATED BASED UPON THE USE CASE OF THIS TOOL AND ITS UNDERLYING INCENTIVES TO MILITARIZE TARGETING AREAS OF DISPLACEMENT OVER TIME OF GEOPOLTICAL UNREST. THIS TOOL WAS CREATED WITH THE SOLE INTENT OF ACCELERATED HUMANTARIAN AID SERVICES, AND SUCH CONSEQUENCES OF ABUSE OF THIS OPEN SOURCE TOOL IS INHERIENTLY MISALIGNED OF ITS PURPOSE. THIS TOOL IS TO BE OBSERVED FOR ACADEMIC AND RESEARCH PURPOSES ONLY, AND NOT TO BE OFFICIALLY DISTRUIBUTED TO ANY OTHER CLIENT OUTSIDE OF GUIDEHOUSE'S REQUEST.
+
 **Keep in mind that through this project we primarly wanted to:**
 
 - Utilize data analysis and forecasting techniques, by using AI/ML principles, to draw predictions towards future humanitarian efforts required
