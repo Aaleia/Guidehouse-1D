@@ -166,7 +166,7 @@ As for ethical concerns, we thought that having a fixed prediction number alone 
 
 ### Credits
 
-Aaleia - Completed the SARIMAX time series model and the K-Means Clustering model.
+Aaleia Fernando - Completed the SARIMAX time series model and the K-Means Clustering model.
 
 Sherin Joseph (Farmingdale State College) - Completed cluster analysis and business understanding of the problem.
 
