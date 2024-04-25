@@ -168,12 +168,12 @@ As for ethical concerns, we thought that having a fixed prediction number alone 
 
 Aaleia - Completed the SARIMAX time series model and the K-Means Clustering model.
 
-Sherin - Completed cluster analysis and business understanding of the problem.
+Sherin Joseph (Farmingdale State College) - Completed cluster analysis and business understanding of the problem.
 
-Cindy - Choosing between supervised and unsupervised learning.
+Cindy Zhu (Columbia University) - Choosing between supervised and unsupervised learning.
 
-Arielle - Chose dataset and preprocessed the data.
+Arielle Seechan (Hunter College) - Chose dataset and preprocessed the data.
 
-Iman - Researched ethics, ML papers, and evaluated our problem for future use cases.
+Iman Shah (Barnard College) - Researched ethics, ML papers, and evaluated our problem for future use cases.
 
 Thank you to Break Through Tech, the Cornell Tech AI Program team, and Guidehouse for granting us this learning opportunity that we will never forget! To our Challenge Advisor, Karen, and teammates, thank you for all of your support and contributions.
